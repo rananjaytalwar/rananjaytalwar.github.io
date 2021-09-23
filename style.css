@@ -1,0 +1,84 @@
+/*body general*/
+body {
+    background-color: #f1faee;
+    padding: 2em;
+    font-size: medium;
+    /*color: #F7EEFA;*/
+}
+
+/*Home containing Main-Menu and Pokemon*/
+#home-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Main Menu with links to Home, Writing and About*/
+#main-menu {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kalam', sans-serif;
+}
+
+/*links*/
+a {
+    text-decoration: none;
+}
+
+    /*links after being clicked*/
+    a:visited {
+        color: blue;
+    }
+
+/*section for description in About*/
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+    /*description in About*/
+    #about div {
+        font-family: 'Roboto', sans-serif;
+        justify-content: center
+    }
+
+/*profile picture in About*/
+img.profile-picture {
+    border-radius: 10px;
+}
+
+/*section for the list of works in Writing*/
+#writing-list {
+    display: flex;
+    justify-content: center;
+}
+
+    /*the list of works in Writing*/
+    #writing-list div {
+        font-family: 'Roboto', sans-serif;
+        justify-content: center
+    }
+
+/*section for the content of a Writing work*/
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+    /*content of a Writing work*/
+    #content div {
+        width: 700px;
+        font-size: large;
+        /*font-family: serif;*/
+        font-family: 'Roboto', sans-serif;
+    }
+
+/*the text in a Writing work*/
+#written-text {
+    text-align: justify;
+}
+
+/*all superscripts (for footnotes)*/
+sup {
+    vertical-align: top;
+    font-size: small;
+}
