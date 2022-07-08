@@ -16,7 +16,7 @@ body {
 #main-menu {
     display: flex;
     flex-direction: column;
-    font-family: 'Kalam', sans-serif;
+    font-family: Georgia, serif;
 }
 
 /*links*/
