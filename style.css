@@ -50,6 +50,7 @@ img.profile-picture {
 #writing-list {
     display: flex;
     justify-content: center;
+    text-align:center;
 }
 
     /*the list of works in Writing*/
@@ -81,4 +82,16 @@ img.profile-picture {
 sup {
     vertical-align: top;
     font-size: small;
+}
+
+/*quotes text*/
+#quote {
+    text-align: center;
+    font-style: italic;
+}
+
+/*quotes author*/
+#quote-author {
+    text-align: right;
+    font-style: italic;
 }
