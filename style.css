@@ -3,7 +3,7 @@ body {
     background-color: white;
     padding: 2em;
     font-size: medium;
-    /*color: #F7EEFA;*/
+    color: ##0A1045;
 }
 
 /*Home containing Main-Menu and Pokemon*/
@@ -26,7 +26,7 @@ a {
 
     /*links after being clicked*/
     a:visited {
-        color: blue;
+        color: ##0A1045;
     }
 
 /*section for description in About*/
