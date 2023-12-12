@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
 }
 
-/*Main Menu with links to Home, Writing and About*/
+/*Main Menu with links to Home, Write and About*/
 #main-menu {
     display: flex;
     flex-direction: column;
@@ -47,26 +47,26 @@ img.profile-picture {
     border-radius: 10px;
 }
 
-/*section for the list of works in Writing*/
-#writing-list {
+/*section for the list of works in Write*/
+#write-list {
     display: flex;
     justify-content: center;
     text-align:center;
 }
 
-    /*the list of works in Writing*/
-    #writing-list div {
+    /*the list of works in Write*/
+    #write-list div {
         font-family: 'Roboto', sans-serif;
         justify-content: center
     }
 
-/*section for the content of a Writing work*/
+/*section for the content of a Write work*/
 #content {
     display: flex;
     justify-content: center;
 }
 
-    /*content of a Writing work*/
+    /*content of a Write work*/
     #content div {
         width: 700px;
         font-size: large;
@@ -74,7 +74,7 @@ img.profile-picture {
         font-family: 'Roboto', sans-serif;
     }
 
-/*the text in a Writing work*/
+/*the text in a Write work*/
 #written-text {
     text-align: justify;
 }
