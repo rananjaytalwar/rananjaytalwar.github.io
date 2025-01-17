@@ -1,2 +1,2 @@
-# rananjay3516.github.io
+# rananjaytalwar.github.io
 www.rananjay.com
