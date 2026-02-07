@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const newImg = document.createElement('img')
     newImg.src = `${baseURL}/${j}.png`
+    newImg.loading = 'lazy'
+    newImg.width = 96
+    newImg.height = 96
     
     pokemon.appendChild(newImg)
     container.appendChild(pokemon)
